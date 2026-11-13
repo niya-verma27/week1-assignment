@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 1 - CSS Layout & Animation Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>CSS Layout & Animation Challenge</h1>
+            <p>Demonstrating Flexbox, Responsive CSS Grid, and Smooth Keyframe Animations</p>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- Exercise 1: Flexbox Layout -->
+        <section class="challenge-section">
+            <div class="section-info">
+                <span class="badge">Exercise 1</span>
+                <h2>Flexbox Feature Cards</h2>
+                <p>Aligned in a horizontal row on desktop and stacked vertically on mobile screens.</p>
+            </div>
+
+            <div class="flex-row">
+                <article class="flex-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Fast Performance</h3>
+                    <p>Lightweight, clean CSS with zero external dependencies for instant page rendering.</p>
+                </article>
+
+                <article class="flex-card">
+                    <div class="card-icon">📱</div>
+                    <h3>Mobile First</h3>
+                    <p>Flexible alignment that adapts smoothly across smartphones, tablets, and desktops.</p>
+                </article>
+
+                <article class="flex-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Clean Spacing</h3>
+                    <p>Balanced padding, consistent gaps, and clear visual hierarchy for easy reading.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Exercise 2: Grid Layout (6+ Items using repeat()) -->
+        <section class="challenge-section">
+            <div class="section-info">
+                <span class="badge">Exercise 2</span>
+                <h2>Responsive CSS Grid Gallery</h2>
+                <p>Built with <code>repeat(auto-fit, minmax(250px, 1fr))</code> featuring 6 dashboard cards.</p>
+            </div>
+
+            <div class="grid-gallery">
+                <div class="grid-item item-1">
+                    <span>01</span>
+                    <h3>UI Architecture</h3>
+                    <p>Component-driven layout structure</p>
+                </div>
+                <div class="grid-item item-2">
+                    <span>02</span>
+                    <h3>Color Theory</h3>
+                    <p>Accessible contrast & palette tokens</p>
+                </div>
+                <div class="grid-item item-3">
+                    <span>03</span>
+                    <h3>Typography</h3>
+                    <p>Readable scale and line height</p>
+                </div>
+                <div class="grid-item item-4">
+                    <span>04</span>
+                    <h3>Grid Systems</h3>
+                    <p>Two-dimensional responsive tracks</p>
+                </div>
+                <div class="grid-item item-5">
+                    <span>05</span>
+                    <h3>Micro-Interactions</h3>
+                    <p>Subtle hover & focus feedback</p>
+                </div>
+                <div class="grid-item item-6">
+                    <span>06</span>
+                    <h3>Web Standards</h3>
+                    <p>Semantic & accessible HTML5</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exercise 3: CSS Animation Task -->
+        <section class="challenge-section">
+            <div class="section-info">
+                <span class="badge">Exercise 3</span>
+                <h2>Smooth CSS Animations</h2>
+                <p>Combining <code>@keyframes</code> pulse animations with smooth <code>transform</code> hover
+                    transitions.</p>
+            </div>
+
+            <div class="animation-stage">
+                <!-- Animated Status Pill -->
+                <div class="status-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Live System Active</span>
+                </div>
+
+                <!-- Animated Interactive Button -->
+                <button class="animated-btn">Hover &amp; Press Me</button>
+
+                <!-- Floating Card Demo -->
+                <div class="floating-box">
+                    <span>✨ Smooth Float Keyframes</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+        <p>Week 1 Web Development Internship • CSS Challenge</p>
+    </footer>
+
+</body>
+
+</html>
